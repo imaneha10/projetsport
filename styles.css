@@ -1,0 +1,76 @@
+body {
+  width: 75%;
+  margin: auto;
+  background-image: url(backfoot.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main {
+  background: wheat;
+  padding: 3%;
+}
+
+p {
+    color: darkblues(117, 98, 98);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+
+  }
+
+h3 {
+    color: brown;
+    font-size: x-large;
+    font-style: oblique;
+
+  }
+  h1 {
+    color:teal;
+    font-size: x-large;
+    font-style: italic;
+
+  }
+ 
+  p > img {
+    width: 15%;
+    float: right;
+}
+table {
+  border-collapse: collapse;
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+table img {
+  width: 15%;
+}
+nav > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: teal;
+  
+}
+nav > ul li{
+  display: inline-block;
+  padding: 1%;
+}
+nav > ul a{
+  text-decoration: none ;
+  color: aliceblue;
+  margin: 1%;
+}
+nav li:hover {
+  background-color: #555;
+  color: white;
+}
+#logo img {
+  height: 90px;
+}
+header{
+  display: flex;
+  justify-content: center;
+}
